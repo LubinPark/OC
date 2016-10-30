@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+    <stu>
+        <number>"1"</number>
+        <name>京京</name>
+        <time>明晚8点</time>
+        <address>七天102</address>
+    </stu>
+    <stu>
+        <number>"2"</number>
+        <name>bobo</name>
+        <time>今晚10点</time>
+        <address>如家523</address>
+    </stu>
+    <stu>
+        <number>"3"</number>
+        <name>强哥</name>
+        <time>明晚11:30</time>
+        <address>汉庭601</address>
+    </stu>
+</students>

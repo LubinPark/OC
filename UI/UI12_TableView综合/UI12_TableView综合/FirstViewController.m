@@ -6,8 +6,8 @@
 #import "FirstViewController.h"
 #import "ModalViewController.h"
 
-//#import "SDWebImageManager.h"
-//#import "UIImageView+WebCache.h"
+#import "SDWebImageManager.h"
+#import "UIImageView+WebCache.h"
 
 @interface FirstViewController ()
 
@@ -18,20 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIImageView *imageView= [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
-    
-    NSURL *url =  [NSURL URLWithString:@"http://movieapi.m.damai.cn/Movie/Show/MovieList.aspx?cityId=852&k=&page=1&source=10099&type=2&version=50101"];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"添加" style:UIBarButtonItemStylePlain target:self action:@selector(addAction:)];
+
+    UIImageView *imageView= [[UIImageView alloc]initWithFrame:CGRectMake(0, 64, 375, 300)];
+    imageView.backgroundColor = [UIColor redColor];
+    NSURL *url =  [NSURL URLWithString:@"http://img05.tooopen.com/images/20150202/sy_80219211654.jpg"];
     [imageView sd_setImageWithURL:url];
     
     //-fobjc-arc 把ARC改为MRC
     [self.view addSubview:imageView];
     
+    //打印url的解析数据
     NSData *data =[NSData dataWithContentsOfURL:url];
     NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
-    NSLog(@"%@",dic);
-    
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"添加" style:UIBarButtonItemStylePlain target:self action:@selector(addAction:)];
-}
+    NSLog(@"%@-------------",dic);
+ }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

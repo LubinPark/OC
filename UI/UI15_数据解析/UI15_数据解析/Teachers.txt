@@ -1,0 +1,20 @@
+[
+    {
+        "number": 1,
+        "name": "cuilaoshi",
+        "gender": "man",
+        "phone": "18392039287"
+    },
+    {
+        "number": 2,
+        "name": "liulaoshi",
+        "gender": "man",
+        "phone": "16736726893"
+    },
+    {
+        "number": 3,
+        "name": "yilaoshi",
+        "gender": "woman",
+        "phone": "1782637382"
+    }
+]
