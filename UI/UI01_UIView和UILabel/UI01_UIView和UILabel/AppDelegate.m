@@ -34,40 +34,27 @@
     //IOS中所有看到的东西全都是UIView或者其子类
     //创建一个UIView,通过CGRect
     UIView *firstView = [[UIView alloc]initWithFrame:CGRectMake(85, 50, 205, 50)];
-    
     firstView.backgroundColor = [UIColor lightGrayColor];
-    
     //特殊注意:一个视图(view)一定依赖window才会显示.
     [self.window addSubview:firstView];
-    
     [firstView release];
     
     //**************************************
     UIView *secondView = [[UIView alloc]initWithFrame:CGRectMake(85, 150, 205, 50)];
-    
     secondView.backgroundColor = [UIColor purpleColor];
-    
     [self.window addSubview:secondView];
-    
     [secondView release];
     
     //**************************************
     UIView *yellowView = [[UIView alloc]initWithFrame:CGRectMake(85, 300, 200, 200)];
-    
     yellowView.backgroundColor = [UIColor yellowColor];
-    
     [self.window addSubview:yellowView];
-    
     [yellowView release];
     
     //**************************************
     UIView *blueView = [[UIView alloc]initWithFrame:CGRectMake(50, 50, 100, 100)];
-    
     blueView.backgroundColor = [UIColor blueColor];
-    
     [yellowView addSubview:blueView];
-    
-    
     [blueView release];
     
     NSLog(@"x= %f ,y = %f",yellowView.center.x ,blueView.center.y);
