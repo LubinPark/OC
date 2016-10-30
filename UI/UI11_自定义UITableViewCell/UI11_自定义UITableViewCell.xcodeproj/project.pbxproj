@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49951B3A1BA27181004AD838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951B391BA27181004AD838 /* main.m */; };
+		49951B3D1BA27181004AD838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951B3C1BA27181004AD838 /* AppDelegate.m */; };
+		49951B3F1BA27181004AD838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49951B3E1BA27181004AD838 /* Images.xcassets */; };
+		49951B421BA27181004AD838 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49951B401BA27181004AD838 /* LaunchScreen.xib */; };
+		49951B4E1BA27181004AD838 /* UI11____UITableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951B4D1BA27181004AD838 /* UI11____UITableViewCellTests.m */; };
+		49951B591BA271B9004AD838 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951B581BA271B9004AD838 /* RootViewController.m */; };
+		49951B5C1BA27622004AD838 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951B5B1BA27622004AD838 /* FirstTableViewCell.m */; };
+		49951B9A1BA2AD6D004AD838 /* 于明月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B601BA2AD6D004AD838 /* 于明月.jpg */; };
+		49951B9B1BA2AD6D004AD838 /* 代燕.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B611BA2AD6D004AD838 /* 代燕.jpg */; };
+		49951B9C1BA2AD6D004AD838 /* 侯赛男.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B621BA2AD6D004AD838 /* 侯赛男.jpg */; };
+		49951B9D1BA2AD6D004AD838 /* 冉世荣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B631BA2AD6D004AD838 /* 冉世荣.jpg */; };
+		49951B9E1BA2AD6D004AD838 /* 刘佳娜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B641BA2AD6D004AD838 /* 刘佳娜.jpg */; };
+		49951B9F1BA2AD6D004AD838 /* 刘国超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B651BA2AD6D004AD838 /* 刘国超.jpg */; };
+		49951BA01BA2AD6D004AD838 /* 刘坤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B661BA2AD6D004AD838 /* 刘坤.jpg */; };
+		49951BA11BA2AD6D004AD838 /* 刘景元.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B671BA2AD6D004AD838 /* 刘景元.jpg */; };
+		49951BA21BA2AD6D004AD838 /* 刘沛源.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B681BA2AD6D004AD838 /* 刘沛源.jpg */; };
+		49951BA31BA2AD6D004AD838 /* 刘洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B691BA2AD6D004AD838 /* 刘洋.jpg */; };
+		49951BA41BA2AD6D004AD838 /* 刘雨双.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B6A1BA2AD6D004AD838 /* 刘雨双.jpg */; };
+		49951BA51BA2AD6D004AD838 /* 卢赛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B6B1BA2AD6D004AD838 /* 卢赛.jpg */; };
+		49951BA61BA2AD6D004AD838 /* 周博.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B6C1BA2AD6D004AD838 /* 周博.jpg */; };
+		49951BA71BA2AD6D004AD838 /* 唐茜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B6D1BA2AD6D004AD838 /* 唐茜.jpg */; };
+		49951BA81BA2AD6D004AD838 /* 夏东.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B6E1BA2AD6D004AD838 /* 夏东.jpg */; };
+		49951BA91BA2AD6D004AD838 /* 夏枫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B6F1BA2AD6D004AD838 /* 夏枫.jpg */; };
+		49951BAA1BA2AD6D004AD838 /* 孙少伟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B701BA2AD6D004AD838 /* 孙少伟.jpg */; };
+		49951BAB1BA2AD6D004AD838 /* 孙文俊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B711BA2AD6D004AD838 /* 孙文俊.jpg */; };
+		49951BAC1BA2AD6D004AD838 /* 孙铭浩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B721BA2AD6D004AD838 /* 孙铭浩.jpg */; };
+		49951BAD1BA2AD6D004AD838 /* 孟庆敏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B731BA2AD6D004AD838 /* 孟庆敏.jpg */; };
+		49951BAE1BA2AD6D004AD838 /* 尹超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B741BA2AD6D004AD838 /* 尹超.jpg */; };
+		49951BAF1BA2AD6D004AD838 /* 张恺宇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B751BA2AD6D004AD838 /* 张恺宇.jpg */; };
+		49951BB01BA2AD6D004AD838 /* 张晓宇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B761BA2AD6D004AD838 /* 张晓宇.jpg */; };
+		49951BB11BA2AD6D004AD838 /* 张朝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B771BA2AD6D004AD838 /* 张朝.jpg */; };
+		49951BB21BA2AD6D004AD838 /* 张本伟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B781BA2AD6D004AD838 /* 张本伟.jpg */; };
+		49951BB31BA2AD6D004AD838 /* 张松.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B791BA2AD6D004AD838 /* 张松.jpg */; };
+		49951BB41BA2AD6D004AD838 /* 张琪琪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B7A1BA2AD6D004AD838 /* 张琪琪.jpg */; };
+		49951BB51BA2AD6D004AD838 /* 张静.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B7B1BA2AD6D004AD838 /* 张静.jpg */; };
+		49951BB61BA2AD6D004AD838 /* 彭严涛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B7C1BA2AD6D004AD838 /* 彭严涛.jpg */; };
+		49951BB71BA2AD6D004AD838 /* 徐周.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B7D1BA2AD6D004AD838 /* 徐周.jpg */; };
+		49951BB81BA2AD6D004AD838 /* 徐永帅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B7E1BA2AD6D004AD838 /* 徐永帅.jpg */; };
+		49951BB91BA2AD6D004AD838 /* 朱俊.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B7F1BA2AD6D004AD838 /* 朱俊.jpg */; };
+		49951BBA1BA2AD6D004AD838 /* 李松.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B801BA2AD6D004AD838 /* 李松.jpg */; };
+		49951BBB1BA2AD6D004AD838 /* 李盼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B811BA2AD6D004AD838 /* 李盼.jpg */; };
+		49951BBC1BA2AD6D004AD838 /* 李真.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B821BA2AD6D004AD838 /* 李真.jpg */; };
+		49951BBD1BA2AD6D004AD838 /* 杨振宇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B831BA2AD6D004AD838 /* 杨振宇.jpg */; };
+		49951BBE1BA2AD6D004AD838 /* 杨景超.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B841BA2AD6D004AD838 /* 杨景超.jpg */; };
+		49951BBF1BA2AD6D004AD838 /* 杨朝霞.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B851BA2AD6D004AD838 /* 杨朝霞.jpg */; };
+		49951BC01BA2AD6D004AD838 /* 梁旭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B861BA2AD6D004AD838 /* 梁旭.jpg */; };
+		49951BC11BA2AD6D004AD838 /* 江浪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B871BA2AD6D004AD838 /* 江浪.jpg */; };
+		49951BC21BA2AD6D004AD838 /* 江锦龙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B881BA2AD6D004AD838 /* 江锦龙.jpg */; };
+		49951BC31BA2AD6D004AD838 /* 王亚东.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B891BA2AD6D004AD838 /* 王亚东.jpg */; };
+		49951BC41BA2AD6D004AD838 /* 王廉昌.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B8A1BA2AD6D004AD838 /* 王廉昌.jpg */; };
+		49951BC51BA2AD6D004AD838 /* 王志远.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B8B1BA2AD6D004AD838 /* 王志远.jpg */; };
+		49951BC61BA2AD6D004AD838 /* 王贻成.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B8C1BA2AD6D004AD838 /* 王贻成.jpg */; };
+		49951BC71BA2AD6D004AD838 /* 纪志刚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B8D1BA2AD6D004AD838 /* 纪志刚.jpg */; };
+		49951BC81BA2AD6D004AD838 /* 董融.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B8E1BA2AD6D004AD838 /* 董融.jpg */; };
+		49951BC91BA2AD6D004AD838 /* 袁格.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B8F1BA2AD6D004AD838 /* 袁格.jpg */; };
+		49951BCA1BA2AD6D004AD838 /* 许云捷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B901BA2AD6D004AD838 /* 许云捷.jpg */; };
+		49951BCB1BA2AD6D004AD838 /* 贾子健.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B911BA2AD6D004AD838 /* 贾子健.jpg */; };
+		49951BCC1BA2AD6D004AD838 /* 边惠芳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B921BA2AD6D004AD838 /* 边惠芳.jpg */; };
+		49951BCD1BA2AD6D004AD838 /* 郑志强.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B931BA2AD6D004AD838 /* 郑志强.jpg */; };
+		49951BCE1BA2AD6D004AD838 /* 郭明淼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B941BA2AD6D004AD838 /* 郭明淼.jpg */; };
+		49951BCF1BA2AD6D004AD838 /* 金志博.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B951BA2AD6D004AD838 /* 金志博.jpg */; };
+		49951BD01BA2AD6D004AD838 /* 陈东.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B961BA2AD6D004AD838 /* 陈东.jpg */; };
+		49951BD11BA2AD6D004AD838 /* 陈永坤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B971BA2AD6D004AD838 /* 陈永坤.jpg */; };
+		49951BD21BA2AD6D004AD838 /* 韩亮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B981BA2AD6D004AD838 /* 韩亮.jpg */; };
+		49951BD31BA2AD6D004AD838 /* 龚公开.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 49951B991BA2AD6D004AD838 /* 龚公开.jpg */; };
+		49951BD61BA2AD98004AD838 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951BD51BA2AD98004AD838 /* Contact.m */; };
+		49951BD81BA2AE24004AD838 /* Class25ContactList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49951BD71BA2AE24004AD838 /* Class25ContactList.plist */; };
+		49951BDE1BA2D93C004AD838 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49951BDD1BA2D93C004AD838 /* SecondTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49951B481BA27181004AD838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49951B2C1BA27181004AD838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49951B331BA27181004AD838;
+			remoteInfo = "UI11_自定义UITableViewCell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49951B341BA27181004AD838 /* UI11_自定义UITableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI11_自定义UITableViewCell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49951B381BA27181004AD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49951B391BA27181004AD838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49951B3B1BA27181004AD838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49951B3C1BA27181004AD838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49951B3E1BA27181004AD838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49951B411BA27181004AD838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		49951B471BA27181004AD838 /* UI11_自定义UITableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI11_自定义UITableViewCellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49951B4C1BA27181004AD838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49951B4D1BA27181004AD838 /* UI11____UITableViewCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UI11____UITableViewCellTests.m"; sourceTree = "<group>"; };
+		49951B571BA271B9004AD838 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		49951B581BA271B9004AD838 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		49951B5A1BA27622004AD838 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		49951B5B1BA27622004AD838 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		49951B601BA2AD6D004AD838 /* 于明月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "于明月.jpg"; sourceTree = "<group>"; };
+		49951B611BA2AD6D004AD838 /* 代燕.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "代燕.jpg"; sourceTree = "<group>"; };
+		49951B621BA2AD6D004AD838 /* 侯赛男.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "侯赛男.jpg"; sourceTree = "<group>"; };
+		49951B631BA2AD6D004AD838 /* 冉世荣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "冉世荣.jpg"; sourceTree = "<group>"; };
+		49951B641BA2AD6D004AD838 /* 刘佳娜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘佳娜.jpg"; sourceTree = "<group>"; };
+		49951B651BA2AD6D004AD838 /* 刘国超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘国超.jpg"; sourceTree = "<group>"; };
+		49951B661BA2AD6D004AD838 /* 刘坤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘坤.jpg"; sourceTree = "<group>"; };
+		49951B671BA2AD6D004AD838 /* 刘景元.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘景元.jpg"; sourceTree = "<group>"; };
+		49951B681BA2AD6D004AD838 /* 刘沛源.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘沛源.jpg"; sourceTree = "<group>"; };
+		49951B691BA2AD6D004AD838 /* 刘洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘洋.jpg"; sourceTree = "<group>"; };
+		49951B6A1BA2AD6D004AD838 /* 刘雨双.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刘雨双.jpg"; sourceTree = "<group>"; };
+		49951B6B1BA2AD6D004AD838 /* 卢赛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "卢赛.jpg"; sourceTree = "<group>"; };
+		49951B6C1BA2AD6D004AD838 /* 周博.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "周博.jpg"; sourceTree = "<group>"; };
+		49951B6D1BA2AD6D004AD838 /* 唐茜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "唐茜.jpg"; sourceTree = "<group>"; };
+		49951B6E1BA2AD6D004AD838 /* 夏东.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夏东.jpg"; sourceTree = "<group>"; };
+		49951B6F1BA2AD6D004AD838 /* 夏枫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夏枫.jpg"; sourceTree = "<group>"; };
+		49951B701BA2AD6D004AD838 /* 孙少伟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孙少伟.jpg"; sourceTree = "<group>"; };
+		49951B711BA2AD6D004AD838 /* 孙文俊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孙文俊.jpg"; sourceTree = "<group>"; };
+		49951B721BA2AD6D004AD838 /* 孙铭浩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孙铭浩.jpg"; sourceTree = "<group>"; };
+		49951B731BA2AD6D004AD838 /* 孟庆敏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "孟庆敏.jpg"; sourceTree = "<group>"; };
+		49951B741BA2AD6D004AD838 /* 尹超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "尹超.jpg"; sourceTree = "<group>"; };
+		49951B751BA2AD6D004AD838 /* 张恺宇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张恺宇.jpg"; sourceTree = "<group>"; };
+		49951B761BA2AD6D004AD838 /* 张晓宇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张晓宇.jpg"; sourceTree = "<group>"; };
+		49951B771BA2AD6D004AD838 /* 张朝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张朝.jpg"; sourceTree = "<group>"; };
+		49951B781BA2AD6D004AD838 /* 张本伟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张本伟.jpg"; sourceTree = "<group>"; };
+		49951B791BA2AD6D004AD838 /* 张松.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张松.jpg"; sourceTree = "<group>"; };
+		49951B7A1BA2AD6D004AD838 /* 张琪琪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张琪琪.jpg"; sourceTree = "<group>"; };
+		49951B7B1BA2AD6D004AD838 /* 张静.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "张静.jpg"; sourceTree = "<group>"; };
+		49951B7C1BA2AD6D004AD838 /* 彭严涛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "彭严涛.jpg"; sourceTree = "<group>"; };
+		49951B7D1BA2AD6D004AD838 /* 徐周.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "徐周.jpg"; sourceTree = "<group>"; };
+		49951B7E1BA2AD6D004AD838 /* 徐永帅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "徐永帅.jpg"; sourceTree = "<group>"; };
+		49951B7F1BA2AD6D004AD838 /* 朱俊.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朱俊.jpg"; sourceTree = "<group>"; };
+		49951B801BA2AD6D004AD838 /* 李松.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李松.jpg"; sourceTree = "<group>"; };
+		49951B811BA2AD6D004AD838 /* 李盼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李盼.jpg"; sourceTree = "<group>"; };
+		49951B821BA2AD6D004AD838 /* 李真.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "李真.jpg"; sourceTree = "<group>"; };
+		49951B831BA2AD6D004AD838 /* 杨振宇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨振宇.jpg"; sourceTree = "<group>"; };
+		49951B841BA2AD6D004AD838 /* 杨景超.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨景超.jpg"; sourceTree = "<group>"; };
+		49951B851BA2AD6D004AD838 /* 杨朝霞.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杨朝霞.jpg"; sourceTree = "<group>"; };
+		49951B861BA2AD6D004AD838 /* 梁旭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "梁旭.jpg"; sourceTree = "<group>"; };
+		49951B871BA2AD6D004AD838 /* 江浪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "江浪.jpg"; sourceTree = "<group>"; };
+		49951B881BA2AD6D004AD838 /* 江锦龙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "江锦龙.jpg"; sourceTree = "<group>"; };
+		49951B891BA2AD6D004AD838 /* 王亚东.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王亚东.jpg"; sourceTree = "<group>"; };
+		49951B8A1BA2AD6D004AD838 /* 王廉昌.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王廉昌.jpg"; sourceTree = "<group>"; };
+		49951B8B1BA2AD6D004AD838 /* 王志远.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王志远.jpg"; sourceTree = "<group>"; };
+		49951B8C1BA2AD6D004AD838 /* 王贻成.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王贻成.jpg"; sourceTree = "<group>"; };
+		49951B8D1BA2AD6D004AD838 /* 纪志刚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "纪志刚.jpg"; sourceTree = "<group>"; };
+		49951B8E1BA2AD6D004AD838 /* 董融.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "董融.jpg"; sourceTree = "<group>"; };
+		49951B8F1BA2AD6D004AD838 /* 袁格.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "袁格.jpg"; sourceTree = "<group>"; };
+		49951B901BA2AD6D004AD838 /* 许云捷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "许云捷.jpg"; sourceTree = "<group>"; };
+		49951B911BA2AD6D004AD838 /* 贾子健.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "贾子健.jpg"; sourceTree = "<group>"; };
+		49951B921BA2AD6D004AD838 /* 边惠芳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "边惠芳.jpg"; sourceTree = "<group>"; };
+		49951B931BA2AD6D004AD838 /* 郑志强.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郑志强.jpg"; sourceTree = "<group>"; };
+		49951B941BA2AD6D004AD838 /* 郭明淼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "郭明淼.jpg"; sourceTree = "<group>"; };
+		49951B951BA2AD6D004AD838 /* 金志博.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "金志博.jpg"; sourceTree = "<group>"; };
+		49951B961BA2AD6D004AD838 /* 陈东.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈东.jpg"; sourceTree = "<group>"; };
+		49951B971BA2AD6D004AD838 /* 陈永坤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "陈永坤.jpg"; sourceTree = "<group>"; };
+		49951B981BA2AD6D004AD838 /* 韩亮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "韩亮.jpg"; sourceTree = "<group>"; };
+		49951B991BA2AD6D004AD838 /* 龚公开.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "龚公开.jpg"; sourceTree = "<group>"; };
+		49951BD41BA2AD98004AD838 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		49951BD51BA2AD98004AD838 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		49951BD71BA2AE24004AD838 /* Class25ContactList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Class25ContactList.plist; sourceTree = "<group>"; };
+		49951BDC1BA2D93C004AD838 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
+		49951BDD1BA2D93C004AD838 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49951B311BA27181004AD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49951B441BA27181004AD838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49951B2B1BA27181004AD838 = {
+			isa = PBXGroup;
+			children = (
+				49951B361BA27181004AD838 /* UI11_自定义UITableViewCell */,
+				49951B4A1BA27181004AD838 /* UI11_自定义UITableViewCellTests */,
+				49951B351BA27181004AD838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49951B351BA27181004AD838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49951B341BA27181004AD838 /* UI11_自定义UITableViewCell.app */,
+				49951B471BA27181004AD838 /* UI11_自定义UITableViewCellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49951B361BA27181004AD838 /* UI11_自定义UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				49951B5F1BA2AD6D004AD838 /* images */,
+				49951BD41BA2AD98004AD838 /* Contact.h */,
+				49951BD51BA2AD98004AD838 /* Contact.m */,
+				49951B3B1BA27181004AD838 /* AppDelegate.h */,
+				49951B3C1BA27181004AD838 /* AppDelegate.m */,
+				49951B571BA271B9004AD838 /* RootViewController.h */,
+				49951B581BA271B9004AD838 /* RootViewController.m */,
+				49951B5A1BA27622004AD838 /* FirstTableViewCell.h */,
+				49951B5B1BA27622004AD838 /* FirstTableViewCell.m */,
+				49951BDC1BA2D93C004AD838 /* SecondTableViewCell.h */,
+				49951BDD1BA2D93C004AD838 /* SecondTableViewCell.m */,
+				49951BD71BA2AE24004AD838 /* Class25ContactList.plist */,
+				49951B3E1BA27181004AD838 /* Images.xcassets */,
+				49951B401BA27181004AD838 /* LaunchScreen.xib */,
+				49951B371BA27181004AD838 /* Supporting Files */,
+			);
+			path = "UI11_自定义UITableViewCell";
+			sourceTree = "<group>";
+		};
+		49951B371BA27181004AD838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49951B381BA27181004AD838 /* Info.plist */,
+				49951B391BA27181004AD838 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49951B4A1BA27181004AD838 /* UI11_自定义UITableViewCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				49951B4D1BA27181004AD838 /* UI11____UITableViewCellTests.m */,
+				49951B4B1BA27181004AD838 /* Supporting Files */,
+			);
+			path = "UI11_自定义UITableViewCellTests";
+			sourceTree = "<group>";
+		};
+		49951B4B1BA27181004AD838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49951B4C1BA27181004AD838 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49951B5F1BA2AD6D004AD838 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				49951B601BA2AD6D004AD838 /* 于明月.jpg */,
+				49951B611BA2AD6D004AD838 /* 代燕.jpg */,
+				49951B621BA2AD6D004AD838 /* 侯赛男.jpg */,
+				49951B631BA2AD6D004AD838 /* 冉世荣.jpg */,
+				49951B641BA2AD6D004AD838 /* 刘佳娜.jpg */,
+				49951B651BA2AD6D004AD838 /* 刘国超.jpg */,
+				49951B661BA2AD6D004AD838 /* 刘坤.jpg */,
+				49951B671BA2AD6D004AD838 /* 刘景元.jpg */,
+				49951B681BA2AD6D004AD838 /* 刘沛源.jpg */,
+				49951B691BA2AD6D004AD838 /* 刘洋.jpg */,
+				49951B6A1BA2AD6D004AD838 /* 刘雨双.jpg */,
+				49951B6B1BA2AD6D004AD838 /* 卢赛.jpg */,
+				49951B6C1BA2AD6D004AD838 /* 周博.jpg */,
+				49951B6D1BA2AD6D004AD838 /* 唐茜.jpg */,
+				49951B6E1BA2AD6D004AD838 /* 夏东.jpg */,
+				49951B6F1BA2AD6D004AD838 /* 夏枫.jpg */,
+				49951B701BA2AD6D004AD838 /* 孙少伟.jpg */,
+				49951B711BA2AD6D004AD838 /* 孙文俊.jpg */,
+				49951B721BA2AD6D004AD838 /* 孙铭浩.jpg */,
+				49951B731BA2AD6D004AD838 /* 孟庆敏.jpg */,
+				49951B741BA2AD6D004AD838 /* 尹超.jpg */,
+				49951B751BA2AD6D004AD838 /* 张恺宇.jpg */,
+				49951B761BA2AD6D004AD838 /* 张晓宇.jpg */,
+				49951B771BA2AD6D004AD838 /* 张朝.jpg */,
+				49951B781BA2AD6D004AD838 /* 张本伟.jpg */,
+				49951B791BA2AD6D004AD838 /* 张松.jpg */,
+				49951B7A1BA2AD6D004AD838 /* 张琪琪.jpg */,
+				49951B7B1BA2AD6D004AD838 /* 张静.jpg */,
+				49951B7C1BA2AD6D004AD838 /* 彭严涛.jpg */,
+				49951B7D1BA2AD6D004AD838 /* 徐周.jpg */,
+				49951B7E1BA2AD6D004AD838 /* 徐永帅.jpg */,
+				49951B7F1BA2AD6D004AD838 /* 朱俊.jpg */,
+				49951B801BA2AD6D004AD838 /* 李松.jpg */,
+				49951B811BA2AD6D004AD838 /* 李盼.jpg */,
+				49951B821BA2AD6D004AD838 /* 李真.jpg */,
+				49951B831BA2AD6D004AD838 /* 杨振宇.jpg */,
+				49951B841BA2AD6D004AD838 /* 杨景超.jpg */,
+				49951B851BA2AD6D004AD838 /* 杨朝霞.jpg */,
+				49951B861BA2AD6D004AD838 /* 梁旭.jpg */,
+				49951B871BA2AD6D004AD838 /* 江浪.jpg */,
+				49951B881BA2AD6D004AD838 /* 江锦龙.jpg */,
+				49951B891BA2AD6D004AD838 /* 王亚东.jpg */,
+				49951B8A1BA2AD6D004AD838 /* 王廉昌.jpg */,
+				49951B8B1BA2AD6D004AD838 /* 王志远.jpg */,
+				49951B8C1BA2AD6D004AD838 /* 王贻成.jpg */,
+				49951B8D1BA2AD6D004AD838 /* 纪志刚.jpg */,
+				49951B8E1BA2AD6D004AD838 /* 董融.jpg */,
+				49951B8F1BA2AD6D004AD838 /* 袁格.jpg */,
+				49951B901BA2AD6D004AD838 /* 许云捷.jpg */,
+				49951B911BA2AD6D004AD838 /* 贾子健.jpg */,
+				49951B921BA2AD6D004AD838 /* 边惠芳.jpg */,
+				49951B931BA2AD6D004AD838 /* 郑志强.jpg */,
+				49951B941BA2AD6D004AD838 /* 郭明淼.jpg */,
+				49951B951BA2AD6D004AD838 /* 金志博.jpg */,
+				49951B961BA2AD6D004AD838 /* 陈东.jpg */,
+				49951B971BA2AD6D004AD838 /* 陈永坤.jpg */,
+				49951B981BA2AD6D004AD838 /* 韩亮.jpg */,
+				49951B991BA2AD6D004AD838 /* 龚公开.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49951B331BA27181004AD838 /* UI11_自定义UITableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49951B511BA27181004AD838 /* Build configuration list for PBXNativeTarget "UI11_自定义UITableViewCell" */;
+			buildPhases = (
+				49951B301BA27181004AD838 /* Sources */,
+				49951B311BA27181004AD838 /* Frameworks */,
+				49951B321BA27181004AD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UI11_自定义UITableViewCell";
+			productName = "UI11_自定义UITableViewCell";
+			productReference = 49951B341BA27181004AD838 /* UI11_自定义UITableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49951B461BA27181004AD838 /* UI11_自定义UITableViewCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49951B541BA27181004AD838 /* Build configuration list for PBXNativeTarget "UI11_自定义UITableViewCellTests" */;
+			buildPhases = (
+				49951B431BA27181004AD838 /* Sources */,
+				49951B441BA27181004AD838 /* Frameworks */,
+				49951B451BA27181004AD838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49951B491BA27181004AD838 /* PBXTargetDependency */,
+			);
+			name = "UI11_自定义UITableViewCellTests";
+			productName = "UI11_自定义UITableViewCellTests";
+			productReference = 49951B471BA27181004AD838 /* UI11_自定义UITableViewCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49951B2C1BA27181004AD838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "蓝鸥科技";
+				TargetAttributes = {
+					49951B331BA27181004AD838 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					49951B461BA27181004AD838 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 49951B331BA27181004AD838;
+					};
+				};
+			};
+			buildConfigurationList = 49951B2F1BA27181004AD838 /* Build configuration list for PBXProject "UI11_自定义UITableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49951B2B1BA27181004AD838;
+			productRefGroup = 49951B351BA27181004AD838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49951B331BA27181004AD838 /* UI11_自定义UITableViewCell */,
+				49951B461BA27181004AD838 /* UI11_自定义UITableViewCellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49951B321BA27181004AD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49951BD21BA2AD6D004AD838 /* 韩亮.jpg in Resources */,
+				49951BB01BA2AD6D004AD838 /* 张晓宇.jpg in Resources */,
+				49951BB81BA2AD6D004AD838 /* 徐永帅.jpg in Resources */,
+				49951BCA1BA2AD6D004AD838 /* 许云捷.jpg in Resources */,
+				49951BD01BA2AD6D004AD838 /* 陈东.jpg in Resources */,
+				49951BAB1BA2AD6D004AD838 /* 孙文俊.jpg in Resources */,
+				49951BC31BA2AD6D004AD838 /* 王亚东.jpg in Resources */,
+				49951BA51BA2AD6D004AD838 /* 卢赛.jpg in Resources */,
+				49951BB71BA2AD6D004AD838 /* 徐周.jpg in Resources */,
+				49951BC71BA2AD6D004AD838 /* 纪志刚.jpg in Resources */,
+				49951BB61BA2AD6D004AD838 /* 彭严涛.jpg in Resources */,
+				49951BBC1BA2AD6D004AD838 /* 李真.jpg in Resources */,
+				49951BA31BA2AD6D004AD838 /* 刘洋.jpg in Resources */,
+				49951B9B1BA2AD6D004AD838 /* 代燕.jpg in Resources */,
+				49951BBE1BA2AD6D004AD838 /* 杨景超.jpg in Resources */,
+				49951BC61BA2AD6D004AD838 /* 王贻成.jpg in Resources */,
+				49951BCF1BA2AD6D004AD838 /* 金志博.jpg in Resources */,
+				49951B421BA27181004AD838 /* LaunchScreen.xib in Resources */,
+				49951BB91BA2AD6D004AD838 /* 朱俊.jpg in Resources */,
+				49951B9F1BA2AD6D004AD838 /* 刘国超.jpg in Resources */,
+				49951BAC1BA2AD6D004AD838 /* 孙铭浩.jpg in Resources */,
+				49951BC01BA2AD6D004AD838 /* 梁旭.jpg in Resources */,
+				49951BC11BA2AD6D004AD838 /* 江浪.jpg in Resources */,
+				49951BA91BA2AD6D004AD838 /* 夏枫.jpg in Resources */,
+				49951B9C1BA2AD6D004AD838 /* 侯赛男.jpg in Resources */,
+				49951BC51BA2AD6D004AD838 /* 王志远.jpg in Resources */,
+				49951BBF1BA2AD6D004AD838 /* 杨朝霞.jpg in Resources */,
+				49951BC21BA2AD6D004AD838 /* 江锦龙.jpg in Resources */,
+				49951BD81BA2AE24004AD838 /* Class25ContactList.plist in Resources */,
+				49951BC81BA2AD6D004AD838 /* 董融.jpg in Resources */,
+				49951BA71BA2AD6D004AD838 /* 唐茜.jpg in Resources */,
+				49951BB41BA2AD6D004AD838 /* 张琪琪.jpg in Resources */,
+				49951BCE1BA2AD6D004AD838 /* 郭明淼.jpg in Resources */,
+				49951BD11BA2AD6D004AD838 /* 陈永坤.jpg in Resources */,
+				49951BCD1BA2AD6D004AD838 /* 郑志强.jpg in Resources */,
+				49951BBA1BA2AD6D004AD838 /* 李松.jpg in Resources */,
+				49951BA61BA2AD6D004AD838 /* 周博.jpg in Resources */,
+				49951BBB1BA2AD6D004AD838 /* 李盼.jpg in Resources */,
+				49951BA11BA2AD6D004AD838 /* 刘景元.jpg in Resources */,
+				49951BD31BA2AD6D004AD838 /* 龚公开.jpg in Resources */,
+				49951BC91BA2AD6D004AD838 /* 袁格.jpg in Resources */,
+				49951BA81BA2AD6D004AD838 /* 夏东.jpg in Resources */,
+				49951BAF1BA2AD6D004AD838 /* 张恺宇.jpg in Resources */,
+				49951BCC1BA2AD6D004AD838 /* 边惠芳.jpg in Resources */,
+				49951BB51BA2AD6D004AD838 /* 张静.jpg in Resources */,
+				49951BA01BA2AD6D004AD838 /* 刘坤.jpg in Resources */,
+				49951BB31BA2AD6D004AD838 /* 张松.jpg in Resources */,
+				49951BAD1BA2AD6D004AD838 /* 孟庆敏.jpg in Resources */,
+				49951B9A1BA2AD6D004AD838 /* 于明月.jpg in Resources */,
+				49951B9E1BA2AD6D004AD838 /* 刘佳娜.jpg in Resources */,
+				49951BA41BA2AD6D004AD838 /* 刘雨双.jpg in Resources */,
+				49951BCB1BA2AD6D004AD838 /* 贾子健.jpg in Resources */,
+				49951BB21BA2AD6D004AD838 /* 张本伟.jpg in Resources */,
+				49951BAE1BA2AD6D004AD838 /* 尹超.jpg in Resources */,
+				49951BA21BA2AD6D004AD838 /* 刘沛源.jpg in Resources */,
+				49951B9D1BA2AD6D004AD838 /* 冉世荣.jpg in Resources */,
+				49951B3F1BA27181004AD838 /* Images.xcassets in Resources */,
+				49951BBD1BA2AD6D004AD838 /* 杨振宇.jpg in Resources */,
+				49951BB11BA2AD6D004AD838 /* 张朝.jpg in Resources */,
+				49951BC41BA2AD6D004AD838 /* 王廉昌.jpg in Resources */,
+				49951BAA1BA2AD6D004AD838 /* 孙少伟.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49951B451BA27181004AD838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49951B301BA27181004AD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49951B3D1BA27181004AD838 /* AppDelegate.m in Sources */,
+				49951B3A1BA27181004AD838 /* main.m in Sources */,
+				49951BD61BA2AD98004AD838 /* Contact.m in Sources */,
+				49951BDE1BA2D93C004AD838 /* SecondTableViewCell.m in Sources */,
+				49951B5C1BA27622004AD838 /* FirstTableViewCell.m in Sources */,
+				49951B591BA271B9004AD838 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49951B431BA27181004AD838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49951B4E1BA27181004AD838 /* UI11____UITableViewCellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49951B491BA27181004AD838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49951B331BA27181004AD838 /* UI11_自定义UITableViewCell */;
+			targetProxy = 49951B481BA27181004AD838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49951B401BA27181004AD838 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49951B411BA27181004AD838 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49951B4F1BA27181004AD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49951B501BA27181004AD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49951B521BA27181004AD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI11_自定义UITableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DLLanou.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49951B531BA27181004AD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = "UI11_自定义UITableViewCell/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DLLanou.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49951B551BA27181004AD838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI11_自定义UITableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DLLanou.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI11_自定义UITableViewCell.app/UI11_自定义UITableViewCell";
+			};
+			name = Debug;
+		};
+		49951B561BA27181004AD838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UI11_自定义UITableViewCellTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DLLanou.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI11_自定义UITableViewCell.app/UI11_自定义UITableViewCell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49951B2F1BA27181004AD838 /* Build configuration list for PBXProject "UI11_自定义UITableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49951B4F1BA27181004AD838 /* Debug */,
+				49951B501BA27181004AD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49951B511BA27181004AD838 /* Build configuration list for PBXNativeTarget "UI11_自定义UITableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49951B521BA27181004AD838 /* Debug */,
+				49951B531BA27181004AD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49951B541BA27181004AD838 /* Build configuration list for PBXNativeTarget "UI11_自定义UITableViewCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49951B551BA27181004AD838 /* Debug */,
+				49951B561BA27181004AD838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49951B2C1BA27181004AD838 /* Project object */;
+}
