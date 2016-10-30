@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  CustomPCH
+//
+//  Created by dllo on 15/11/30.
+//  Copyright © 2015年 L-G. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define URL @"lubin.www.cn"
+#import "ViewController.h"
+#import "CustomViewController.h"
+#import "CurrentViewController.h"
+
+#if DEBUG
+
+#define NSLog(FORMAT, ...) fprintf(stderr,"[%s:%d行] %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+
+#else
+
+#define NSLog(FORMAT, ...) nil
+
+#endif
+
+
+
+#endif /* PrefixHeader_pch */
