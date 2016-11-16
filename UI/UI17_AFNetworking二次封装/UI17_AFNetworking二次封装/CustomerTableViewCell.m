@@ -7,8 +7,6 @@
 //
 
 #import "CustomerTableViewCell.h"
-#import "SDWebImageManager.h"
-#import "UIImageView+WebCache.h"
 
 #define Width self.frame.size.width
 
@@ -64,7 +62,6 @@
     self.addressLabel.text = customer.address;
     NSString *urlString = [NSString stringWithFormat:@"%@", customer.image];
     NSURL *url = [NSURL URLWithString:urlString];
-    [self.imageViews sd_setImageWithURL:url];
 }
 
 - (void)awakeFromNib {

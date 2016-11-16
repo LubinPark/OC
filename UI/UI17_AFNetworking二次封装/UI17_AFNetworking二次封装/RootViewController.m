@@ -45,7 +45,7 @@
 //    }];
     
 //get or post 改进
-    [CustomerNetworking customerConnectWithURL:@"http://mapi.yinyuetai.com/search/video.json?D-A=0&keyword=T-ARA" andParameters:nil andBlock:^(id response){
+    [CustomerNetworking customerConnectWithURL:@"http://mapiv2.yinyuetai.com/component/prefecture.json?type=1" andParameters:nil andBlock:^(id response){
         self.dic = response;
         self.array = [self.dic objectForKey:@"data"];
         [self.tableViews reloadData];
