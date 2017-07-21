@@ -60,7 +60,7 @@
     //给视图加边框
     self.aImageView.layer.borderWidth = 1;
     //设置边框的颜色
-    self.aImageView.layer.borderColor = [[UIColor redColor]CGColor];s
+    self.aImageView.layer.borderColor = [[UIColor redColor]CGColor];
 }
 
 
